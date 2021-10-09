@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*en tete*/
+.avant{
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header{
+    background-color:  #f5f5f5;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    
+}
+section {
+    margin: 12px auto;
+    width: 83%;
+    display: flex;
+    align-items: center;
+}
+.padding-left-micro {
+    padding-left: 5px;
+}
+.dell-orange {
+    color: #EE6411;
+}
+section form{
+    border: 1px solid rgb(203, 204, 200);
+    width: 565px;
+    height: 300px;
+    padding-left: 20px;
+    border-right: 0em;
+}
+section .deux{
+    border: 1px solid rgb(203, 204, 200);
+    font-size: 14px;
+    width: 565px;
+    height: 300px;
+    padding-left: 20px;
+    border-left: 0em;
+    display: block;
+    padding-top: 50px;
+    color: #1982e3;
+    font-family: 'roboto',Arial,Helvetica,sans-serif;
+}
+.deux a{
+    text-decoration: none;
+    color: #1982e3;
+}
+h2 {
+    font-size: 25px;
+    /* line-height: 24px; */
+}
+h2 {
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: inherit;
+    text-rendering: optimizelegibility;
+    /* margin: 0px; */
+}
+/* corps*/
+form #pseudo{
+    height: 35px;
+    width: 255px;
+}
+form #pseudo2{
+    height: 35px;
+    width: 255px;
+}
+form #pre{
+    font-size: 14px !important;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+}
+form #pre2{
+    font-size: 14px !important;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+}
+
+form  #pre3{
+    height: 35px;
+    color: #0079a1;
+    font-size: 13px;
+    padding-top: -20px;
+}
+
+
+form #pass{
+    color: #0079a1;
+    font-size: 13px;
+    
+  
+    
+}
+form #show{
+    font-size: 14px !important;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+}
+
+.recher{
+    
+        border: 1px solid rgb(203, 204, 200);
+        width: 260.5px;
+        border-radius: 5px 5px 5px 5px;
+    
+}
+.recher input{
+	/* position: relative; */
+	display: inline-block;
+	font-size: 20px;
+	box-sizing: border-box;
+	transition: .5s;
+}
+.recher input[type="text"]{
+	/* background: blue; */
+	width: 206px;
+	height: 30px;
+	 border: none;
+	outline: none;
+	padding-left: 0 25px;
+	/* border-radius: 25px 0 0 25px; */
+}
+
+
+
+.recherche{
+    border: 1px solid rgb(203, 204, 200);
+    width: 262px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.recherche input{
+	/* position: relative; */
+	display: inline-block;
+	font-size: 20px;
+	box-sizing: border-box;
+	transition: .5s;
+}
+.recherche input[type="text"]{
+	/* background: blue; */
+	width: 206px;
+	height: 28px;
+	 border: none;
+	outline: none;
+	padding-left: 0 25px;
+	/* border-radius: 25px 0 0 25px; */
+}
+.recherche input[type="submit"]{
+	position: relative;
+    height: 30px;
+    width: 50px;
+    font-size: 14px;
+    color: #0079a1;
+}
+
+.btn-primary {
+    background-color: #1082D1;
+    background-repeat: repeat-x;
+    background-image: linear-gradient(to bottom, #118FD6, #0F6ECA);
+    border: 1px solid #0F6ECA;
+    border-radius: 3px;
+    padding: 0px 10px 0px 10px;
+    height: 34px;
+}
+.btn-primary {
+    color: #ffffff;
+    background-color: #008cba;
+    border-color: #0079a1;
+}
+
+form .block{
+    margin-top: -35px;
+}
+
+.imag{
+    margin-top: 10px;
+    margin-left: 120px;
+    padding-bottom: -40px;
+}
+
+.apre{
+    background-color: rgb(203, 204, 200);
+    margin-top: 120px;
+    padding-block: 20px;
+    padding-left: 110px;
+}
+.apre a{
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 14px !important;
+    color: #444444;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    
+}
+.apre a:hover{
+    text-decoration: underline;
+}
+/* pied*/
+.fini{
+    padding-block: 29px;
+    background-color:  #222222;
+    padding-bottom: 10px;
+    padding-left: 105px;
+    margin-bottom: 10px;
+    /* display: flex; */
+    /* align-items: center; */
+}
+.fini a{
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 12px !important;
+    color: #fff;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    
+}
+.fini a:hover{
+    text-decoration: underline;
+}
+#gauche{
+    background-color:  #222222;
+    padding-left: 115px;
+}
+#milieu{
+    background-color:  #fff;
+    padding-left: 1100px;
+}
+#droite{
+    background-color:  #222222;
+    padding-left: 120px;
+}
+.ensemble{
+    display: flex;
+    margin-top: -9px;
+    /* margin-bottom: 100px; */
+}
